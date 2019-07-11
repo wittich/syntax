@@ -61,7 +61,7 @@ $math.reset("vst")
   <tr>
     <td colspan="5"><h3>Steuerfreie Ums&auml;tze ohne Vorsteuerabzug</h3></td>
   </tr>
-  #line("48","Ums&auml;tze nach ง4 Nr. 8 bis 28 UStG",true,false)
+  #line("48","Ums&auml;tze nach ยง4 Nr. 8 bis 28 UStG",true,false)
   
   <tr>
     <td colspan="5"><h3>Steuerpflichtige Ums&auml;tze</h3></td>
@@ -83,6 +83,11 @@ $math.reset("vst")
   #line("95","zu anderen Steuers&auml;tzen",true,"98")
 
   <tr>
+    <td colspan="5"><h3>Erg&auml;nzende Angaben zu Ums&auml;tzen</h3></td>
+  </tr>
+  #line("45","&Uuml;brige nicht steuerbare Ums&auml;tze (Leistungsort nicht im Inland)",true,"&nbsp;")
+
+  <tr>
     <td colspan="4" style="border-top:1px solid #000000">Summe:</td>
     <td style="border-top:1px solid #000000;border-bottom:1px solid #000000;text-align:right">$!{decimalformat.format($math.get("ust"))}&nbsp;${eur}</td>
   </tr>
@@ -97,7 +102,7 @@ $math.reset("vst")
   #line("66","Vorsteuerbetr&auml;ge aus Rechnungen von anderen Unternehmen",false,true)
   #line("61","Vorsteuerbetr&auml;ge aus dem innergemeinschaftlichen Erwerb von Gegenst&auml;nden",false,true)
   #line("62","Entrichtete Einfuhrumsatzsteuer",false,true)
-  #line("67","Vorsteuerbetr&auml;ge aus Leistungen im Sinne des ง13b UStG",false,true)
+  #line("67","Vorsteuerbetr&auml;ge aus Leistungen im Sinne des ยง13b UStG",false,true)
   #line("63","Vorsteuerbetr&auml;ge, die nach allgemeinen Durchschnittss&auml;tzen berechnet sind",false,true)
 
   <tr>
